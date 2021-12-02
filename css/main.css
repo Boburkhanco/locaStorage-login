@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(290deg, #003144, rgb(90, 0, 94));
+    min-height: 100vh;
+    padding: 30px;
+}
+.container {
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 30px;
+    padding: 50px 30px 20px 30px;
+    margin-top: 80px;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 6px rgb(236, 236, 236) , inset 0 0 10px 10px rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    width: 40px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .6s;
+}
+.intro:hover{
+    width: 100px;
+    transition: all .6s;
+}
+.main-title{
+    text-align: center;
+    padding-top: 10px;
+}
+.title-line{
+    width: 100%;
+    padding-top: 10px;
+    opacity: 100%;
+    background: linear-gradient(to right,rgb(119, 0, 255), rgb(200, 20, 0), rgb(255, 20, 235));
+    transition: all .6s;
+    margin: 0;
+}
+
+.input{
+    border-radius: 10px;
+    border: 1px solid rgb(150, 150, 150);
+    height: 40px;
+    padding-left: 10px;
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+}
+.input::placeholder{
+    color: #c3c3c3c0;
+}
+.form-label{
+    font-weight: 600;
+
+}
+.btn{
+    border: 2px solid rgb(163, 3, 255);
+    border-radius: 50px;
+    height: 45px;
+    transition: all 1s;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(255, 0, 234), rgb(98, 0, 255));
+}
+.btn:hover{
+    box-shadow: 0 0 10px 3px rgb(235, 0, 223);
+    transition: all .3s;
+    color: #c0c0c0;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.clearbtn{
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(163, 3, 255);
+    border-radius: 50px;
+    height: 45px;
+    transition: all 1s;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(255, 0, 234), rgb(98, 0, 255));
+    color: transparent;
+}
+.clearBtn:last-child{
+    transform: translate(20px);
+}
+.clearbtn:hover{
+    width: 150px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.btnBack{
+    position: absolute;
+    top: 86%;
+    right: 4%;
+}
